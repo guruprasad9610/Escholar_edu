@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rubik:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo
+{
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img
+{
+    width: 44%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav-list li
+{
+    list-style: none;
+    padding: 25px 30px;
+}
+
+.nav-list li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-list li a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+
+.rightnav
+{
+    width: 30%;
+    text-align: right;
+    padding: 0 3%;
+}
+
+#search
+{
+    padding: 5px;
+    font-size: medium;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 140px;
+}
+
+.search
+{
+    padding: 5px 12px;
+    margin: 7px 0;
+    font-size: medium;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 80px;
+    background: none;
+    color: white;
+}
+
+.background
+{
+    background:rgba(0,0,0,0.7) url('../img/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection
+{
+    height: 100vh;
+}
+
+.box-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 10% 0 10%;
+    height: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firsthalf
+{
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12%;
+    display: inline-block;
+    margin: auto;
+}
+
+.secondhalf
+{
+    height: 46%;
+    width: 32%;
+}
+
+.secondhalf img
+{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-big
+{
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.text-small
+{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn
+{
+    padding: 10px 14px;
+    margin: 8px;
+    font-size: medium;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 90px;
+    background: none;
+    color: white;
+}
+
+.sec-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 98%;
+    padding: 0 140px;
+}
+
+.sec-left
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 98%;
+    padding: 0 140px;
+    flex-direction: row-reverse;
+}
+
+.paragraph
+{
+    padding: 0 60px;
+}
+
+.thumnail img
+{
+    height: 400px;
+    width: 450px;
+}
+
+.contact
+{
+    padding: 10px;
+    height: 60vh;
+    background-color: aliceblue;
+    justify-content: center !important;
+    text-align: center !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form
+{
+    
+    width: 60%;
+    padding: 14px;
+    margin: auto;
+}
+
+.form input
+{
+    margin: 10px;
+    height: 28px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.form textarea
+{
+    margin: 10px;
+    border-radius: 6px;
+    width: 90%;
+}
+
+.submit
+{
+    padding: 8px 12px;
+    margin: 7px 0;
+    font-size: medium;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 80px;
+    background: blue;
+    color: white;
+}
+
+.footer
+{
+    height: 4vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.foot
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.burger
+{
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 5%;
+    cursor: pointer;
+    
+}
+
+.line
+{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}

@@ -1,0 +1,277 @@
+@media only screen and (max-width: 1180px)
+{
+    .sec-right
+    {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0;
+    }
+    .sec-left
+    {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0;
+    }
+    .footer
+    {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 860px)
+{
+    .nav-list{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .navbar
+    {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        transition: all 0.4s ease-out;
+        height: 333px;
+    }
+    .nav-list li
+{
+    list-style: none;
+    padding: 10px 5px;
+}
+    .rightnav
+    {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .burger
+    {
+        display: block ;
+    }
+    .h-nav-resp
+    {
+        height: 72px;
+    }
+    .v-class-resp
+    {
+        opacity: 0;
+    }
+    .firstsection
+    {
+        height: 70vh;
+    }
+    .box-main
+    {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .sec-right
+    {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0;
+    }
+    .sec-left
+    {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0;
+    }
+    .text-big
+    {
+        text-align: center;
+        font-size: 30px;
+    }
+    .text-small
+    {
+        text-align: center;
+        font-size: 14px;
+    }
+    .btn
+    {
+        text-align: center;
+    }
+    .thumnail img
+    {
+        height: 300px;
+        width: 350px;
+    }
+    .box-main
+    {
+        height: 80%;
+    }
+    .btn
+    {
+        padding: 9px 12px;
+        font-size: small;
+        border-radius: 8px;
+        width: 66px;
+    }
+}
+
+
+@media only screen and (max-width: 536px)
+{
+    .nav-list{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .navbar
+    {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        transition: all 0.4s ease-out;
+        height: 219px;
+    }
+    .nav-list li
+    {
+        list-style: none;
+        padding: 10px 5px;
+    }
+    .rightnav
+    {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .nav-list li a
+    {
+        text-decoration: none;
+        color: white;
+        font-size: small;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #search
+    {
+        padding: 5px;
+        font-size: small;
+        border-radius: 5px;
+        width: 100px;
+    }
+
+    .search
+    {
+        padding: 5px 12px;
+        margin: 7px 0;
+        font-size: medium;
+        border: 2px solid white;
+        border-radius: 8px;
+        width: 80px;
+        background: none;
+        color: white;
+    }
+    .h-nav-resp
+    {
+        height: 42px;
+    }
+    .burger
+    {
+        top: 10px;
+        
+    }
+    .line
+    {
+        width: 33px;
+        background-color: white;
+        height: 3px;
+        margin: 3px 3px;
+    }
+
+    .firstsection
+    {
+        height: 40vh;
+    }
+    .nav-list li 
+    {
+        padding: 3px 1px
+    };
+    .secondhalf img
+    {
+        display: none;
+    }
+    .sec-right
+    {
+        padding: 0;
+    }
+    .sec-left
+    {
+        padding: 0;
+    }
+    .text-big
+    {
+        text-align: center;
+        font-size: 20px;
+    }
+    .text-small
+    {
+        text-align: center;
+        font-size: 11px;
+    }
+    .footer
+    {
+        font-size: 11px;
+    }
+    .thumnail img
+    {
+        height: 200px;
+        width: 250px;
+    }
+    .box-main
+    {
+        height: 70%;
+    }
+    .secondhalf img
+    {
+        display: none;
+    }
+    .btn
+    {
+        padding: 6px 10px;
+        font-size: x-small;
+        border-radius: 6px;
+        width: 56px;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+    .h-nav-resp
+    {
+        height: 22px;
+    }
+    
+    .firsthalf {
+        width: 105%;
+    }
+    .sec-right
+    {
+        padding: 0;
+    }
+    .sec-left
+    {
+        padding: 0;
+    }
+    .paragraph
+    {
+        padding: 0;
+    }
+    .footer
+    {
+        font-size: 8px;
+    }
+    .burger
+    {
+        top: 5px;
+        
+    }
+    .line
+    {
+        width: 33px;
+        background-color: white;
+        height: 2px;
+        margin: 2px 2px;
+    }
+}
